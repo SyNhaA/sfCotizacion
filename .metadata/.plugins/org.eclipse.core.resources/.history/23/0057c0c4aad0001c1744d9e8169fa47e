@@ -29,7 +29,7 @@
         <listModelElementCore xsi:type="tooldataform.core:Package" name="LogicalModel" pathElementRoot="root">
           <listPackage name="cotizacion" id="_lNDusBc7EeiSj8tKu3ogxw" type="System" pathElementRoot="" typeElement="Package" nameSpace="null:NewPackage1" ownedSystemElements="//@theRootProjectDF/@theProjectDF">
             <listPackage name="domain" id="_rb-vEBc7EeiSj8tKu3ogxw" nameVar="platform:/resource/empresa/diagramas/_740d08.datosdiagram" type="System" pathElementRoot="cotizacion" typeElement="Package" nameSpace="null:NewPackage1:NewPackage1" ownedSystemElements="//@theRootProjectDF/@theProjectDF">
-              <listPackage name="persona" id="_wQKywNCqEeyHk9cpTvuDrQ" type="System" pathElementRoot="cotizacion.domain" typeElement="Package" nameSpace="null:NewPackage1:NewPackage1:NewPackage1" ownedSystemElements="//@theRootProjectDF/@theProjectDF">
+              <listPackage name="NewPackage1" id="_wQKywNCqEeyHk9cpTvuDrQ" type="System" pathElementRoot="cotizacion.domain" typeElement="Package" nameSpace="null:NewPackage1:NewPackage1:NewPackage1" ownedSystemElements="//@theRootProjectDF/@theProjectDF">
                 <theAssociations name="Associations"/>
               </listPackage>
               <theAssociations name="Associations" type="System"/>

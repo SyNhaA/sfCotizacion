@@ -2,4 +2,43 @@
 <?eclipse version="3.0"?>
 <plugin>
 
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cotizacion -->
+      <package
+            uri="http:///cotizacion.ecore"
+            class="cotizacion.cotizacionPackage"
+            genModel="model/cotizacion.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cotizacion -->
+      <package
+            uri="http:///cotizacion/domain.ecore"
+            class="cotizacion.domain.DomainPackage"
+            genModel="model/cotizacion.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cotizacion -->
+      <package
+            uri="http:///cotizacion/domain/persona.ecore"
+            class="cotizacion.domain.persona.PersonaPackage"
+            genModel="model/cotizacion.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cotizacion -->
+      <package
+            uri="http:///cotizacion/domain/cotizacion.ecore"
+            class="cotizacion.domain.cotizacion.CotizacionPackage"
+            genModel="model/cotizacion.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cotizacion -->
+      <package
+            uri="http:///cotizacion/ui.ecore"
+            class="cotizacion.ui.UiPackage"
+            genModel="model/cotizacion.genmodel"/>
+   </extension>
 </plugin>

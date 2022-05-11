@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:tooldataform.core="http:///tooldataform/core.ecore" xmlns:tooldataform.pmoo="http:///tooldataform/pmoo.ecore" xsi:schemaLocation="http:///tooldataform/core.ecore http:///tooldataform.ecore#//core http:///tooldataform/pmoo.ecore http:///tooldataform.ecore#//pmoo">
+  <tooldataform.core:Datos_Diagram xmi:id="_gPe4wYRxEemeoZLzaonNpw">
+    <listClase xmi:type="tooldataform.pmoo:Clase" xmi:id="_gpAMAIRxEemeoZLzaonNpw" name="Domain" id="_t31tgBc7EeiSj8tKu3ogxw" nameSpace="" nameSpaceElement="">
+      <listaMetodos xmi:type="tooldataform.pmoo:Metodo" xmi:id="_dYUjEGsbEeqv98S2YDhvpQ" name="implementarModelo" id="_dXeOgGsbEeqv98S2YDhvpQ" description="" body="void"/>
+    </listClase>
+    <listClase xmi:type="tooldataform.pmoo:Clase" xmi:id="_md_CANDhEeyED-c454vIXw" name="FactoryPersona" id="_wEB2kNDeEeyED-c454vIXw" type="System" description="" pathElementRoot="cotizacion.domain.persona" typeElement="Class" urlIcon="platform:/plugin/tooldataform.datosdiagram/icons/Clase.gif" nameSpace="(from: persona)" nameSpaceElement="(from: persona)" nombreArchivo="">
+      <listaMetodos xmi:type="tooldataform.pmoo:Metodo" xmi:id="_mfihMNDhEeyED-c454vIXw" name="updateViewModel" id="_ftZw8NDfEeyED-c454vIXw" description="" pathElementRoot="cotizacion.domain.persona" typeElement="Operation" body="void"/>
+      <listaMetodos xmi:type="tooldataform.pmoo:Metodo" xmi:id="_mfihMdDhEeyED-c454vIXw" name="implementarViewModelo" id="_gn1_8NDfEeyED-c454vIXw" description="" pathElementRoot="cotizacion.domain.persona" typeElement="Operation" body="void"/>
+    </listClase>
+    <listClase xmi:type="tooldataform.pmoo:Clase" xmi:id="_nKT8gNDhEeyED-c454vIXw" name="FactoryCotizacion" id="_KgXygNDfEeyED-c454vIXw" type="System" description="" pathElementRoot="cotizacion.domain.cotizacion" typeElement="Class" urlIcon="platform:/plugin/tooldataform.datosdiagram/icons/Clase.gif" nameSpace="(from: cotizacion)" nameSpaceElement="(from: cotizacion)" nombreArchivo=""/>
+  </tooldataform.core:Datos_Diagram>
+  <notation:Diagram xmi:id="_gPijIIRxEemeoZLzaonNpw" type="MetamodelodataformDatosDiagram" element="_gPe4wYRxEemeoZLzaonNpw" name="Main" measurementUnit="Pixel">
+    <children xmi:type="notation:Node" xmi:id="_gpCBMIRxEemeoZLzaonNpw" type="2002" element="_gpAMAIRxEemeoZLzaonNpw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_gpCBNYRxEemeoZLzaonNpw" type="5003"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_gpCoQIRxEemeoZLzaonNpw" type="5004"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_gpCoQYRxEemeoZLzaonNpw" type="7001">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_gpCoQoRxEemeoZLzaonNpw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_gpCoQ4RxEemeoZLzaonNpw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_gpCoRIRxEemeoZLzaonNpw" type="7002">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_gpCoRYRxEemeoZLzaonNpw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_gpCoRoRxEemeoZLzaonNpw"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_gpCBMYRxEemeoZLzaonNpw"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_gpCBMoRxEemeoZLzaonNpw" fontName="Segoe UI"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_gpCBM4RxEemeoZLzaonNpw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gpCBNIRxEemeoZLzaonNpw" x="230" y="110"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_meFIoNDhEeyED-c454vIXw" type="2002" element="_md_CANDhEeyED-c454vIXw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_meFvsNDhEeyED-c454vIXw" type="5003"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_meFvsdDhEeyED-c454vIXw" type="5004"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_meFvstDhEeyED-c454vIXw" type="7001">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_meFvs9DhEeyED-c454vIXw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_meFvtNDhEeyED-c454vIXw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_meFvtdDhEeyED-c454vIXw" type="7002">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_meFvttDhEeyED-c454vIXw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_meFvt9DhEeyED-c454vIXw"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_meFIodDhEeyED-c454vIXw"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_meFIotDhEeyED-c454vIXw" fontName="Segoe UI"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_meFIo9DhEeyED-c454vIXw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_meFIpNDhEeyED-c454vIXw" x="128" y="75"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_nKaqMNDhEeyED-c454vIXw" type="2002" element="_nKT8gNDhEeyED-c454vIXw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_nKbRQNDhEeyED-c454vIXw" type="5003"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_nKbRQdDhEeyED-c454vIXw" type="5004"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_nKb4UNDhEeyED-c454vIXw" type="7001">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_nKb4UdDhEeyED-c454vIXw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_nKb4UtDhEeyED-c454vIXw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_nKb4U9DhEeyED-c454vIXw" type="7002">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_nKb4VNDhEeyED-c454vIXw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_nKb4VdDhEeyED-c454vIXw"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_nKaqMdDhEeyED-c454vIXw"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_nKaqMtDhEeyED-c454vIXw" fontName="Segoe UI"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_nKaqM9DhEeyED-c454vIXw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nKaqNNDhEeyED-c454vIXw" x="501" y="112"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_gPijIYRxEemeoZLzaonNpw"/>
+  </notation:Diagram>
+</xmi:XMI>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:tooldataform.core="http:///tooldataform/core.ecore" xmlns:tooldataform.pmoo="http:///tooldataform/pmoo.ecore" xsi:schemaLocation="http:///tooldataform/core.ecore http:///tooldataform.ecore#//core http:///tooldataform/pmoo.ecore http:///tooldataform.ecore#//pmoo">
+  <tooldataform.core:Datos_Diagram xmi:id="_n2FYMNDzEeyED-c454vIXw">
+    <listClase xmi:type="tooldataform.pmoo:Clase" xmi:id="_oM1EQNDzEeyED-c454vIXw" name="ClienteViewModel" id="_cY90oNDzEeyED-c454vIXw" type="System" pathElementRoot="cotizacion.ui.viewModels.contenedorCotizacionBaseViewModel" typeElement="Class" urlIcon="platform:/plugin/tooldataform.datosdiagram/icons/Clase.gif" nameSpace="" nameSpaceElement="">
+      <listaAtributos xmi:type="tooldataform.pmoo:Atributo" xmi:id="_oNi18NDzEeyED-c454vIXw" id="_cY-bsNDzEeyED-c454vIXw" type="String" pathElementRoot="cotizacion.ui.viewModels.contenedorCotizacionBaseViewModel" namePresentation="name:String"/>
+    </listClase>
+  </tooldataform.core:Datos_Diagram>
+  <notation:Diagram xmi:id="_n2JCkNDzEeyED-c454vIXw" type="MetamodelodataformDatosDiagram" element="_n2FYMNDzEeyED-c454vIXw" name="containment" measurementUnit="Pixel">
+    <children xmi:type="notation:Node" xmi:id="_oM8ZANDzEeyED-c454vIXw" type="2002" element="_oM1EQNDzEeyED-c454vIXw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_oM8ZBdDzEeyED-c454vIXw" type="5003"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_oM9AENDzEeyED-c454vIXw" type="5004"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_oM9AEdDzEeyED-c454vIXw" type="7001">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_oM9AEtDzEeyED-c454vIXw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_oM9AE9DzEeyED-c454vIXw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_oM9AFNDzEeyED-c454vIXw" type="7002">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_oM9AFdDzEeyED-c454vIXw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_oM9AFtDzEeyED-c454vIXw"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_oM8ZAdDzEeyED-c454vIXw"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_oM8ZAtDzEeyED-c454vIXw" fontName="Segoe UI"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_oM8ZA9DzEeyED-c454vIXw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oM8ZBNDzEeyED-c454vIXw" x="320" y="75"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_n2JCkdDzEeyED-c454vIXw"/>
+  </notation:Diagram>
+</xmi:XMI>

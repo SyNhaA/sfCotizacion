@@ -2,22 +2,37 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:tooldataform.core="http:///tooldataform/core.ecore" xmlns:tooldataform.pmoo="http:///tooldataform/pmoo.ecore" xsi:schemaLocation="http:///tooldataform/core.ecore http:///tooldataform.ecore#//core http:///tooldataform/pmoo.ecore http:///tooldataform.ecore#//pmoo">
   <tooldataform.core:Datos_Diagram xmi:id="_Grd9gNDfEeyED-c454vIXw">
     <listClase xmi:type="tooldataform.pmoo:Clase" xmi:id="_KgRE0NDfEeyED-c454vIXw" name="FactoryCotizacion" id="_KgXygNDfEeyED-c454vIXw" description="" pathElementRoot="cotizacion.domain.cotizacion" nombreArchivo="" listaMetodosBinding="_nSbooNDfEeyED-c454vIXw _oBgVINDfEeyED-c454vIXw">
-      <listaMetodos xmi:type="tooldataform.pmoo:Metodo" xmi:id="_nSbooNDfEeyED-c454vIXw" name="updateViewModel" id="_nSc2wNDfEeyED-c454vIXw" description="" typeElement="Operation" urlIcon="platform:/plugin/tooldataform.datosdiagram/icons/Metodo.gif" body="void" returnTypeMethod="" theClaseBinding="_KgRE0NDfEeyED-c454vIXw"/>
-      <listaMetodos xmi:type="tooldataform.pmoo:Metodo" xmi:id="_oBgVINDfEeyED-c454vIXw" name="implementarViewModel" id="_oBgVIdDfEeyED-c454vIXw" description="" typeElement="Operation" urlIcon="platform:/plugin/tooldataform.datosdiagram/icons/Metodo.gif" body="void" returnTypeMethod="" theClaseBinding="_KgRE0NDfEeyED-c454vIXw"/>
+      <listaMetodos xmi:type="tooldataform.pmoo:Metodo" xmi:id="_nSbooNDfEeyED-c454vIXw" name="updateViewModel" id="_nSc2wNDfEeyED-c454vIXw" description="" typeElement="Operation" urlIcon="platform:/plugin/tooldataform.datosdiagram/icons/Metodo.gif" body="&#xD;&#xA;&#x9;&#x9;//TODO updateViewModel&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;" returnTypeMethod="" theClaseBinding="_KgRE0NDfEeyED-c454vIXw"/>
+      <listaMetodos xmi:type="tooldataform.pmoo:Metodo" xmi:id="_oBgVINDfEeyED-c454vIXw" name="implementarViewModel" id="_oBgVIdDfEeyED-c454vIXw" description="" typeElement="Operation" urlIcon="platform:/plugin/tooldataform.datosdiagram/icons/Metodo.gif" body="&#xD;&#xA;&#x9;&#x9;//TODO implementarViewModel&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;" returnTypeMethod="" theClaseBinding="_KgRE0NDfEeyED-c454vIXw"/>
+      <listaMetodos xmi:type="tooldataform.pmoo:Metodo" xmi:id="_poYv4NSvEeyDluTmCDBPEQ" name="crearCotizacion" id="_nT-dQNSvEeyDluTmCDBPEQ" documentation="" description="" pathElementRoot="cotizacion.ui.UI" typeElement="Operation" body="&#xD;&#xA;&#x9;&#x9;//TODO updateContenedorCotizacionBaseViewModel&#xD;&#xA;&#x9;&#x9;cotizacion.domain.cotizacion.Cotizacion cotizacion = CotizacionFactory.eINSTANCE.createCotizacion();&#xD;&#xA;&#x9;&#x9;cotizacion.ui.viewmodels.contenedorclientebaseviewmodel.ClienteViewModel clienteViewModel = formulario.getTheCliente().getSelectedComboCliente();&#xD;&#xA;&#x9;&#x9;cotizacion.ui.viewmodels.contenedortrabajadorbaseviewmodel.TrabajadorViewModel trabajadorViewModel = formulario.getTheAsesor().getSelectedComboTrabajador();&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;java.util.List&lt;cotizacion.domain.persona.Cliente> clientes = getOwnedByDomain().getTheFactoryPersona().getLstCliente();&#xD;&#xA;&#x9;&#x9;for(cotizacion.domain.persona.Cliente c : clientes) {&#xD;&#xA;&#x9;&#x9;if(c.getId().equalsIgnoreCase(clienteViewModel.getId())) {&#xD;&#xA;&#x9;&#x9;cotizacion.setTheCliente(c);&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;java.util.List&lt;cotizacion.domain.persona.Trabajador> trabajadores = getOwnedByDomain().getTheFactoryPersona().getLstTrabajador();&#xD;&#xA;&#x9;&#x9;for(cotizacion.domain.persona.Trabajador t : trabajadores) {&#xD;&#xA;&#x9;&#x9;if(t.getId().equalsIgnoreCase(trabajadorViewModel.getId())) {&#xD;&#xA;&#x9;&#x9;cotizacion.getLstTrabajador().add(t);&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;cotizacion.setDescripcion(formulario.getDescripcion());&#xD;&#xA;&#x9;&#x9;cotizacion.setPrecio(formulario.getPrecio());&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;getLstCotizacion().add(cotizacion);&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;formulario.setPrecio(&quot;&quot;);&#xD;&#xA;&#x9;&#x9;formulario.setDescripcion(&quot;&quot;);&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;updateContenedorCotizacionViewModel(formulario);&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;" returnTypeMethod="">
+        <listParametros xmi:type="tooldataform.pmoo:Atributo" xmi:id="_dvGwkNS2EeyDluTmCDBPEQ" name="formulario" id="_ikyxUNSvEeyDluTmCDBPEQ" type="cotizacion.ui.viewModels.contenedorCotizacionBaseViewModel:ContenedorCotizacionBaseViewModel" colour="ContenedorCotizacionBaseViewModel: cotizacion.ui.viewModels.contenedorCotizacionBaseViewModel" valueDefault="" namePresentation="formulario:ContenedorCotizacionBaseViewModel:cotizacion.ui.viewModels.contenedorCotizacionBaseViewModel"/>
+      </listaMetodos>
+      <listaMetodos xmi:type="tooldataform.pmoo:Metodo" xmi:id="_vg-S4NS6EeyDluTmCDBPEQ" name="updateContenedorCotizacionViewModel" id="_t1wuQNS6EeyDluTmCDBPEQ" documentation="" description="" pathElementRoot="cotizacion.ui.UI" typeElement="Operation" body="&#xD;&#xA;&#x9;&#x9;//&#x9;&#x9;//TODO updateContenedorCotizacionViewModel&#xD;&#xA;&#x9;&#x9;formulario.getListaCotizacionViewModel().clear();&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;for(cotizacion.domain.cotizacion.Cotizacion cotizacion :  getLstCotizacion()){&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;System.out.println(cotizacion.getDescripcion());&#xD;&#xA;&#x9;&#x9;cotizacion.ui.viewmodels.contenedorcotizacionbaseviewmodel.CotizacionViewModel cotizacionViewModel = ContenedorcotizacionbaseviewmodelFactory.eINSTANCE.createCotizacionViewModel();&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;cotizacionViewModel.setDescripcion(cotizacion.getDescripcion());&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;formulario.getCotizacionViewModel().add(cotizacionViewModel);&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;" returnTypeMethod="">
+        <listParametros xmi:type="tooldataform.pmoo:Atributo" xmi:id="_wOh8cNS6EeyDluTmCDBPEQ" name="formulario" id="_oV5MQNS6EeyDluTmCDBPEQ" type="cotizacion.ui.viewModels.contenedorCotizacionBaseViewModel:ContenedorCotizacionBaseViewModel" colour="ContenedorCotizacionBaseViewModel: cotizacion.ui.viewModels.contenedorCotizacionBaseViewModel" valueDefault="" namePresentation="formulario:ContenedorCotizacionBaseViewModel:cotizacion.ui.viewModels.contenedorCotizacionBaseViewModel"/>
+      </listaMetodos>
     </listClase>
     <listClase xmi:type="tooldataform.pmoo:Clase" xmi:id="_ZuuMANDfEeyED-c454vIXw" name="Cotizacion" id="_ZuvaINDfEeyED-c454vIXw" description="" pathElementRoot="cotizacion.domain.cotizacion" nombreArchivo="" listaMetodosBinding="_p6geINDfEeyED-c454vIXw _qpz0INDfEeyED-c454vIXw" listaAtributosBinding="_eH39kNDfEeyED-c454vIXw">
       <listaAtributos xmi:type="tooldataform.pmoo:Atributo" xmi:id="_eH39kNDfEeyED-c454vIXw" name="fecha" id="_eH4koNDfEeyED-c454vIXw" type="String" pathElementRoot="cotizacion.domain.cotizacion.Cotizacion" namePresentation="fecha:String" Clase="_ZuuMANDfEeyED-c454vIXw"/>
       <listaAtributos xmi:type="tooldataform.pmoo:Atributo" xmi:id="_wJ700NDfEeyED-c454vIXw" name="descripcion" id="_wJ9C8NDfEeyED-c454vIXw" type="String" pathElementRoot="cotizacion.domain.cotizacion.Cotizacion" namePresentation="descripcion:String"/>
-      <listaMetodos xmi:type="tooldataform.pmoo:Metodo" xmi:id="_p6geINDfEeyED-c454vIXw" name="updateViewModel" id="_p6geIdDfEeyED-c454vIXw" description="" typeElement="Operation" urlIcon="platform:/plugin/tooldataform.datosdiagram/icons/Metodo.gif" body="void" returnTypeMethod="" theClaseBinding="_ZuuMANDfEeyED-c454vIXw"/>
-      <listaMetodos xmi:type="tooldataform.pmoo:Metodo" xmi:id="_qpz0INDfEeyED-c454vIXw" name="implementarViewModel" id="_qpz0IdDfEeyED-c454vIXw" description="" typeElement="Operation" urlIcon="platform:/plugin/tooldataform.datosdiagram/icons/Metodo.gif" body="void" returnTypeMethod="" theClaseBinding="_ZuuMANDfEeyED-c454vIXw"/>
+      <listaAtributos xmi:type="tooldataform.pmoo:Atributo" xmi:id="_2Y-qUNSrEeyDluTmCDBPEQ" name="precio" id="_2QljUNSrEeyDluTmCDBPEQ" documentation="" type="String" pathElementRoot="cotizacion.domain.cotizacion.Cotizacion" valueDefault="" namePresentation="precio:String"/>
+      <listaMetodos xmi:type="tooldataform.pmoo:Metodo" xmi:id="_p6geINDfEeyED-c454vIXw" name="updateViewModel" id="_p6geIdDfEeyED-c454vIXw" description="" typeElement="Operation" urlIcon="platform:/plugin/tooldataform.datosdiagram/icons/Metodo.gif" body="&#xD;&#xA;&#x9;&#x9;//TODO updateViewModel&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;" returnTypeMethod="" theClaseBinding="_ZuuMANDfEeyED-c454vIXw"/>
+      <listaMetodos xmi:type="tooldataform.pmoo:Metodo" xmi:id="_qpz0INDfEeyED-c454vIXw" name="implementarViewModel" id="_qpz0IdDfEeyED-c454vIXw" description="" typeElement="Operation" urlIcon="platform:/plugin/tooldataform.datosdiagram/icons/Metodo.gif" body="&#xD;&#xA;&#x9;&#x9;//TODO implementarViewModel&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;" returnTypeMethod="" theClaseBinding="_ZuuMANDfEeyED-c454vIXw"/>
     </listClase>
     <listClase xmi:type="tooldataform.pmoo:Clase" xmi:id="_y85EoNDfEeyED-c454vIXw" name="Cliente" id="_zPP1YNDeEeyED-c454vIXw" type="System" pathElementRoot="cotizacion.domain.persona" typeElement="Class" urlIcon="platform:/plugin/tooldataform.datosdiagram/icons/Clase.gif" nameSpace="(from: persona)" nameSpaceElement="(from: persona)"/>
     <listClase xmi:type="tooldataform.pmoo:Clase" xmi:id="_zL0RcNDfEeyED-c454vIXw" name="Trabajador" id="_0PB3YNDeEeyED-c454vIXw" type="System" pathElementRoot="cotizacion.domain.persona" typeElement="Class" urlIcon="platform:/plugin/tooldataform.datosdiagram/icons/Clase.gif" nameSpace="(from: persona)" nameSpaceElement="(from: persona)">
       <listaAtributos xmi:type="tooldataform.pmoo:Atributo" xmi:id="_zNDnkNDfEeyED-c454vIXw" name="tipoTrabajador" id="_1P9v8NDeEeyED-c454vIXw" type="String" pathElementRoot="cotizacion.domain.persona" namePresentation="tipoTrabajador:String"/>
     </listClase>
+    <listClase xmi:type="tooldataform.pmoo:Clase" xmi:id="_ytyQgNJyEeysctSmeya32g" name="Producto" id="_czdHMNJyEeysctSmeya32g" type="System" pathElementRoot="cotizacion.domain.producto" typeElement="Class" urlIcon="platform:/plugin/tooldataform.datosdiagram/icons/Clase.gif" nameSpace="(from: producto)" nameSpaceElement="(from: producto)">
+      <listaAtributos xmi:type="tooldataform.pmoo:Atributo" xmi:id="_yvvYUNJyEeysctSmeya32g" name="nombre" id="_ezE1kNJyEeysctSmeya32g" type="String" pathElementRoot="cotizacion.domain.producto" namePresentation="nombre:String"/>
+      <listaAtributos xmi:type="tooldataform.pmoo:Atributo" xmi:id="_yvv_YNJyEeysctSmeya32g" name="descripcion" id="_fp0QUNJyEeysctSmeya32g" type="String" pathElementRoot="cotizacion.domain.producto" namePresentation="descripcion:String"/>
+      <listaAtributos xmi:type="tooldataform.pmoo:Atributo" xmi:id="_yvv_YdJyEeysctSmeya32g" name="precio" id="_hMKz4NJyEeysctSmeya32g" type="String" pathElementRoot="cotizacion.domain.producto" namePresentation="precio:String"/>
+    </listClase>
     <listRelacion_Data xmi:type="tooldataform.pmoo:Relacion_Data" xmi:id="_bIZ7wNDfEeyED-c454vIXw" name="lstFactoryCotizacion(FactoryCotizacion)" id="_bIbw8NDfEeyED-c454vIXw" aRol="lstCotizacion" bRol="ownedByFactoryCotizacion" bMultiplicidad="_1" multiplicidadB=" " multiplicidadA="*" aContainment="si" aAgregacion="si" source="_ZuuMANDfEeyED-c454vIXw" target="_KgRE0NDfEeyED-c454vIXw"/>
     <listRelacion_Data xmi:type="tooldataform.pmoo:Relacion_Data" xmi:id="_2KfCANDfEeyED-c454vIXw" name="lstCotizacion(Cotizacion)" id="_2KmWwNDfEeyED-c454vIXw" aRol="theCliente" bRol="lstCotizacion" aMultiplicidad="_1" multiplicidadB="*" multiplicidadA="1" source="_y85EoNDfEeyED-c454vIXw" target="_ZuuMANDfEeyED-c454vIXw"/>
     <listRelacion_Data xmi:type="tooldataform.pmoo:Relacion_Data" xmi:id="_2mK4cNDfEeyED-c454vIXw" name="lstCotizacion(Cotizacion)" id="_2mMtoNDfEeyED-c454vIXw" aRol="lstTrabajador" bRol="lstCotizacion" multiplicidadB="*" multiplicidadA="*" source="_zL0RcNDfEeyED-c454vIXw" target="_ZuuMANDfEeyED-c454vIXw"/>
+    <listRelacion_Data xmi:type="tooldataform.pmoo:Relacion_Data" xmi:id="_zi4sgNJyEeysctSmeya32g" name="lstProducto(Producto)" id="_zjABQNJyEeysctSmeya32g" aRol="lstCotizacion" bRol="lstProducto" multiplicidadB="*" multiplicidadA="*" source="_ZuuMANDfEeyED-c454vIXw" target="_ytyQgNJyEeysctSmeya32g"/>
+    <listPackageParent xmi:type="tooldataform.core:Package" xmi:id="_5O0UkNJyEeysctSmeya32g" name="producto" id="_XlVcgNJyEeysctSmeya32g" type="System" pathElementRoot="cotizacion.domain" typeElement="Package" nameSpace="(from: domain)"/>
+    <listPackageParent xmi:type="tooldataform.core:Package" xmi:id="_5j4loNJyEeysctSmeya32g" name="persona" id="_wQKywNCqEeyHk9cpTvuDrQ" type="System" pathElementRoot="cotizacion.domain" typeElement="Package" nameSpace="(from: domain)"/>
   </tooldataform.core:Datos_Diagram>
   <notation:Diagram xmi:id="_GroVkNDfEeyED-c454vIXw" type="MetamodelodataformDatosDiagram" element="_Grd9gNDfEeyED-c454vIXw" name="containment" measurementUnit="Pixel">
     <children xmi:type="notation:Node" xmi:id="_KguX0NDfEeyED-c454vIXw" type="2002" element="_KgRE0NDfEeyED-c454vIXw">
@@ -98,6 +113,32 @@
       <styles xmi:type="notation:FillStyle" xmi:id="_zL7mM9DfEeyED-c454vIXw"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zL7mNNDfEeyED-c454vIXw" x="663" y="337"/>
     </children>
+    <children xmi:type="notation:Node" xmi:id="_yt5lQNJyEeysctSmeya32g" type="2002" element="_ytyQgNJyEeysctSmeya32g">
+      <children xmi:type="notation:DecorationNode" xmi:id="_yt6MUNJyEeysctSmeya32g" type="5003"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_yt6MUdJyEeysctSmeya32g" type="5004"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_yt6MUtJyEeysctSmeya32g" type="7001">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_yt6MU9JyEeysctSmeya32g"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_yt6MVNJyEeysctSmeya32g"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_yt6MVdJyEeysctSmeya32g" type="7002">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_yt6MVtJyEeysctSmeya32g"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_yt6MV9JyEeysctSmeya32g"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_yt5lQdJyEeysctSmeya32g"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_yt5lQtJyEeysctSmeya32g" fontName="Segoe UI"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_yt5lQ9JyEeysctSmeya32g"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yt5lRNJyEeysctSmeya32g" x="862" y="170"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_5O-FkNJyEeysctSmeya32g" type="2001" element="_5O0UkNJyEeysctSmeya32g" fontName="Segoe UI">
+      <children xmi:type="notation:DecorationNode" xmi:id="_5O-soNJyEeysctSmeya32g" type="5001"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_5O-sodJyEeysctSmeya32g" type="5002"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5O-FkdJyEeysctSmeya32g" x="1092" y="228"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_5kCWoNJyEeysctSmeya32g" type="2001" element="_5j4loNJyEeysctSmeya32g" fontName="Segoe UI">
+      <children xmi:type="notation:DecorationNode" xmi:id="_5kC9sNJyEeysctSmeya32g" type="5001"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_5kC9sdJyEeysctSmeya32g" type="5002"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5kCWodJyEeysctSmeya32g" x="165" y="435"/>
+    </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_GroVkdDfEeyED-c454vIXw"/>
     <edges xmi:type="notation:Connector" xmi:id="_bI5rANDfEeyED-c454vIXw" type="4002" element="_bIZ7wNDfEeyED-c454vIXw" source="_ZxGKkNDfEeyED-c454vIXw" target="_KguX0NDfEeyED-c454vIXw" routing="Rectilinear">
       <children xmi:type="notation:DecorationNode" xmi:id="_bI65INDfEeyED-c454vIXw" type="6001">
@@ -151,6 +192,23 @@
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2mlvMtDfEeyED-c454vIXw" points="[-30, -17, 240, 136]$[-237, -174, 33, -21]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2mwuUNDfEeyED-c454vIXw" id="(0.6597222222222222,0.2125)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2mwuUdDfEeyED-c454vIXw" id="(0.8020304568527918,0.1810344827586207)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_znqe0NJyEeysctSmeya32g" type="4002" element="_zi4sgNJyEeysctSmeya32g" source="_ZxGKkNDfEeyED-c454vIXw" target="_yt5lQNJyEeysctSmeya32g" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_znrF4NJyEeysctSmeya32g" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_znrF4dJyEeysctSmeya32g" x="-10" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_znrs8NJyEeysctSmeya32g" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_znrs8dJyEeysctSmeya32g" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_znrs8tJyEeysctSmeya32g" type="6003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_znsUANJyEeysctSmeya32g" x="16" y="-12"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_znsUAdJyEeysctSmeya32g" type="6004">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_znsUAtJyEeysctSmeya32g" y="10"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_znqe0dJyEeysctSmeya32g" fontName="Segoe UI"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_znqe0tJyEeysctSmeya32g" points="[55, -8, -407, -26]$[390, -8, -72, -26]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zn2FANJyEeysctSmeya32g" id="(0.7208121827411168,0.10344827586206896)"/>
     </edges>
   </notation:Diagram>
 </xmi:XMI>

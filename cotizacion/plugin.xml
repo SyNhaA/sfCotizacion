@@ -37,8 +37,49 @@
    <extension point="org.eclipse.emf.ecore.generated_package">
       <!-- @generated cotizacion -->
       <package
+            uri="http:///cotizacion/domain/producto.ecore"
+            class="cotizacion.domain.producto.ProductoPackage"
+            genModel="model/cotizacion.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cotizacion -->
+      <package
             uri="http:///cotizacion/ui.ecore"
             class="cotizacion.ui.UiPackage"
             genModel="model/cotizacion.genmodel"/>
    </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cotizacion -->
+      <package
+            uri="http:///cotizacion/ui/viewmodels.ecore"
+            class="cotizacion.ui.viewmodels.ViewmodelsPackage"
+            genModel="model/cotizacion.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cotizacion -->
+      <package
+            uri="http:///cotizacion/ui/viewmodels/contenedorclientebaseviewmodel.ecore"
+            class="cotizacion.ui.viewmodels.contenedorclientebaseviewmodel.ContenedorclientebaseviewmodelPackage"
+            genModel="model/cotizacion.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cotizacion -->
+      <package
+            uri="http:///cotizacion/ui/viewmodels/contenedortrabajadorbaseviewmodel.ecore"
+            class="cotizacion.ui.viewmodels.contenedortrabajadorbaseviewmodel.ContenedortrabajadorbaseviewmodelPackage"
+            genModel="model/cotizacion.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cotizacion -->
+      <package
+            uri="http:///cotizacion/ui/viewmodels/contenedorcotizacionbaseviewmodel.ecore"
+            class="cotizacion.ui.viewmodels.contenedorcotizacionbaseviewmodel.ContenedorcotizacionbaseviewmodelPackage"
+            genModel="model/cotizacion.genmodel"/>
+   </extension>
+
 </plugin>
